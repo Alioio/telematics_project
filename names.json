@@ -1,0 +1,109 @@
+
+{
+    "$origin": "switch.telematik",
+    "$ttl": 3600,
+    "soa": {
+        "mname": "switch.telematik",
+        "rname": "admin.switch.telematik",
+        "serial": "{time}",
+        "refresh": 3600,
+        "retry": 600,
+        "expire": 604800,
+        "minimum": 86400
+    },
+    "ns": [
+        { "host": "switch.telematik" },
+        { "host": "www.switch.telematik" },
+		{ "host": "mail.switch.telematik" }
+    ],
+    "a": [
+        { "name": "@", "ttl": 400, "value": "255.255.255.255" },
+        { "name": "@", "ttl": 400, "value": "127.0.0.11" },
+        { "name": "@", "ttl": 400, "value": "127.0.0.11" },
+        { "name": "@", "ttl": 400, "value": "127.0.0.10" },
+        { "name": "@", "ttl": 400, "value": "10.10.10.10" }
+    ]
+}
+{
+    "$origin": "news.router.telematik",
+    "$ttl": 3600,
+    "soa": {
+        "mname": "router.telematik",
+        "rname": "admin.router.telematik",
+        "serial": "{time}",
+        "refresh": 3600,
+        "retry": 600,
+        "expire": 604800,
+        "minimum": 86400
+    },
+    "ns": [
+        { "host": "router.telematik" },
+        { "host": "news.router.telematik" },
+		{ "host": "shop.router.telematik" }
+    ],
+    "a": [
+        { "name": "@", "ttl": 400, "value": "255.255.255.255" },
+        { "name": "@", "ttl": 400, "value": "127.0.0.12" },
+        { "name": "@", "ttl": 400, "value": "127.0.0.12" },
+        { "name": "@", "ttl": 400, "value": "127.0.0.12" },
+        { "name": "@", "ttl": 400, "value": "10.10.10.10" }
+    ]
+}
+
+
+{
+    "$origin": "homework.fuberlin",
+    "$ttl": 3600,
+    "soa": {
+        "mname": "homework.fuberlin",
+        "rname": "admin.homework.fuberlin",
+        "serial": "{time}",
+        "refresh": 3600,
+        "retry": 600,
+        "expire": 604800,
+        "minimum": 86400
+    },
+    "ns": [
+        { "host": "homework.fuberlin" },
+        { "host": "easy.homework.fuberlin" },
+		{ "host": "hard.homework.fuberlin" }
+    ],
+    "a": [
+        { "name": "@", "ttl": 400, "value": "255.255.255.255" },
+        { "name": "@", "ttl": 400, "value": "127.0.0.13" },
+        { "name": "@", "ttl": 400, "value": "127.0.0.13" },
+        { "name": "@", "ttl": 400, "value": "127.0.0.13" },
+        { "name": "@", "ttl": 400, "value": "10.10.10.10" }
+    ]
+}
+
+{
+    "$origin": "pcpools.fuberlin",
+    "$ttl": 3600,
+    "soa": {
+        "mname": "pcpools.fuberlin",
+        "rname": "admin.pcpools.fuberlin",
+        "serial": "{time}",
+        "refresh": 3600,
+        "retry": 600,
+        "expire": 604800,
+        "minimum": 86400
+    },
+    "ns": [
+        { "host": "pcpools.fuberlin" },
+        { "host": "linux.pcpools.fuberlin" },
+		{ "host": "macos.pcpools.fuberlin" },
+		{ "host": "windows.pcpools.fuberlin" }
+    ],
+    "a": [
+        { "name": "@", "ttl": 400, "value": "255.255.255.255" },
+        { "name": "@", "ttl": 400, "value": "127.0.0.14" },
+        { "name": "@", "ttl": 400, "value": "127.0.0.14" },
+        { "name": "@", "ttl": 400, "value": "127.0.0.14" },
+        { "name": "@", "ttl": 400, "value": "10.10.10.10" }
+    ]
+}
+
+
+
+
