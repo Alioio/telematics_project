@@ -1,0 +1,16 @@
+,0
+dns.flags.response,0
+dns.flags.recdesired,placeholder
+dns.qry.name,placeholder
+dns.qry.type,placeholder
+dns.flags.rcode,placeholder
+dns.count.answers,placeholder
+dns.flags.authoritative,placeholder
+dns.a,127.0.0.10
+dns.ns,www.switch.telematik
+dns.resp.ttl,1234
+dns.srv.name,placeholder
+dns.srv.port,placeholder
+dns.srv.proto,placeholder
+dns.srv.service,placeholder
+dns.srv.target,placeholder
