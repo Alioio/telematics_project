@@ -69,27 +69,27 @@ Photo 2.5 Recursive Resolver
 3.DNS
 
 
-https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/21.png
+![name-of-you-image]https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/21.png
 
 Photo 3.1 DNS
 
-https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/22.png
+![name-of-you-image]https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/22.png
 
 Photo 3.2 DNS
 
-https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/23.png
+![name-of-you-image]https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/23.png
 
 Photo 3.3 DNS
 
-https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/24.png
+![name-of-you-image]https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/24.png
 
 Photo 3.4 DNS
 
-https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/25.png
+![name-of-you-image]https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/25.png
 
 Photo 3.5 DNS
 
-https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/26.png
+![name-of-you-image]https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/26.png
 
 Photo 3.6 DNS
 
