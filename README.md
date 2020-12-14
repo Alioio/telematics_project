@@ -44,27 +44,26 @@ Photo 1.5 Stubresolver
 2.  Recursive Resolver
 
 
-![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/recursiveresolver/11.PNG)
+![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/recursiveresolver/11.png)
+
 
 Photo 2.1 Recursive Resolver
 
-![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/recursiveresolver/12.PNG)
+
+![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/recursiveresolver/12.png)
 
 
 Photo 2.2 Recursive Resolver
 
 
 
-![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/recursiveresolver/13.PNG)
-
+![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/recursiveresolver/13.png)
 
 
 Photo 2.3 Recursive Resolver
 
 
-
-![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/recursiveresolver/14.PNG)
-
+![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/recursiveresolver/14.png)
 
 
 Photo 2.4 Recursive Resolver
@@ -83,6 +82,7 @@ Photo 2.5 Recursive Resolver
 
 ![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/21.png)
 
+
 Photo 3.1 DNS
 
 
@@ -92,10 +92,12 @@ Photo 3.1 DNS
 
 Photo 3.2 DNS
 
+
 ![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/23.png)
 
 
 Photo 3.3 DNS
+
 
 ![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/24.png)
 
