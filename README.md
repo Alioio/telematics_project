@@ -44,7 +44,7 @@ Photo 1.5 Stubresolver
 2.  Recursive Resolver
 
 
-![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/recursiveresolver/11.png)
+![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/recursiveresolver/11.PNG)
 
 
 Photo 2.1 Recursive Resolver
