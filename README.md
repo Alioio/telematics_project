@@ -48,32 +48,32 @@ Photo 1.5 Stubresolver
 
  
 
-Photo 2.1 Recursive Resolver:  our Recursive Resolver has cache .when client sends request,first recursive resolver checks whetever cache has response for request or not.When it has, returns entry from cache, if not , then our cache entry is none.
+Photo 2.1 -  Our Recursive Resolver has cache .when client sends request,first recursive resolver checks whetever cache has response for request or not.When it has, returns entry from cache, if not , then our cache entry is none.We check here all the entry of cache.Our recutsive resolver accessible under the IP address:127.0.0.10:53053. In cache we have many functions that perform for cache's functions.When we find the response ,then cache adds entry with add_entry_cache functions.Our cache has also TTL(Time to leave),with this TTL consider we that how much time the entry remains in 
+the cache.
+
 
 
 ![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/recursiveresolver/12.png)
 
 
-Photo 2.2 Recursive Resolver :  In cache we have many functions that perform for cache's functions.When we find the response ,then cache adds entry with add_entry_cache functions.Our cache has also TTL(Time to leave),with this TTL consider we that how much time the entry remains in 
-the cache.
-
+Photo 2.2 -  
 
 ![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/recursiveresolver/13.png)
 
 
-Photo 2.3 Recursive Resolver :  We check here all the entry of cache.Our recutsive resolver accessible under the IP address:127.0.0.10:53053 .We use here thread in order to perform many functions at the same time.We start all the process with start() function.
+Photo 2.3 -  .We use here thread in order to perform many functions at the same time.We start all the process with start() function. Then check if requested entry is in the cache or not. When it is , then he responds to the client with "I HAVE THE ANSWER NO NEED TO ASK" message.
 
 
 ![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/recursiveresolver/14.png)
 
 
-Photo 2.4 Recursive Resolver  : We create connection among servers  and also between clients and servers with socket libraries.First recursive resolver begins to listen requests and check if it is a request from a stub resolver or not.
+Photo 2.4 - : We create connection among servers  and also between clients and servers with socket libraries.First recursive resolver begins to listen requests and check if it is a request from a stub resolver or not.
 
 
 ![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/recursiveresolver/15%20threading.png)
 
 
-Photo 2.5 Recursive Resolver :  Then check if requested entry is in the cache or not. When it is , then he responds to the client with "I HAVE THE ANSWER NO NEED TO ASK" message. After that send response from cache to stub resolver.In other cases that cache has no entry for the request,the  recursive resolver 
+Photo 2.5 -  After that send response from cache to stub resolver.In other cases that cache has no entry for the request,the  recursive resolver 
 forwards it to dns server.We implement the request to the dns server also with the thread.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
