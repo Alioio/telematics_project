@@ -1,7 +1,7 @@
 # telematics_project
  General Info _________
 
-In this project we implented a dns server. Our dns server consists of 3 parts :  Stub resolver ,  Recursive resolver and autorative dns server. The main purpose for this implementation is to send a domain name and receive an IP address assigned for this domain name. 
+In this project we implemented a dns server. Our dns server consists of 3 parts :  Stub resolver ,  Recursive resolver and autorative dns server. The main purpose for this implementation is to send a domain name and receive an IP address assigned for this domain name. 
 
 Technologies _________
 
@@ -19,5 +19,5 @@ Status_________
 
 ![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/zones_telematik.png)
 photoZones---- 
-Zones start from Root which is reachable with the ip address 127.0.0.11:53053
+The process starts with the Dns Resolver which looks in the cache if the information that he seeks is in there, If not he then goes to ask root which reachable in this case with the IP address 127.0.0.11:53053 .If The root doesn't have the answer then he sends the Dns resolver to ask Telematik and FuBerlin (TLD).The process contiunes until the resolver gets an IP adress  If the TLD's don't have the answer the the recrusive resolver proceeds to ask Switch, Router, Homework ,Pcpools. If the resolver doesn't get answer he logs an error with the name rcode=3 which means the domain name doesn't have any information.
 
