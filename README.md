@@ -12,10 +12,21 @@ Technologies _________
 
 Setup __________
 1.Stub Resolver
+
+
+
 ![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/stubresolver/1.png)
+
+
 ![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/stubresolver/2.png)
+
+
 ![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/stubresolver/3.png)
+
+
 ![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/stubresolver/4start%20define.png)
+
+
 ![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/stubresolver/defining%20stub%20resolver.png)
 
 2.Recursive Resolver
