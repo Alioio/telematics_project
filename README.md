@@ -24,9 +24,9 @@ The process starts with the Dns Resolver which looks in the cache if the informa
 
 1. Open the following Jupyter Notebooks in your Browser: 
 
-`DNS.ipynb`<br>
-`Recursive_resolver.ipynb`<br>
-` StubResolver.ipynb`<br>
+- `DNS.ipynb`<br>
+- `Recursive_resolver.ipynb`<br>
+- ` StubResolver.ipynb`<br>
 
 2. Run all cell's in the following Notebooks: 
 `DNS.ipynb`<br>
