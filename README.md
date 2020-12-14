@@ -50,17 +50,29 @@ Photo 2.1 Recursive Resolver
 
 ![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/recursiveresolver/12.PNG)
 
+
 Photo 2.2 Recursive Resolver
+
+
 
 ![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/recursiveresolver/13.PNG)
 
+
+
 Photo 2.3 Recursive Resolver
+
+
 
 ![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/recursiveresolver/14.PNG)
 
+
+
 Photo 2.4 Recursive Resolver
 
+
 ![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/recursiveresolver/15%20threading.png)
+
+
 
 Photo 2.5 Recursive Resolver
 
@@ -69,27 +81,36 @@ Photo 2.5 Recursive Resolver
 3.DNS
 
 
-![name-of-you-image]https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/21.png
+![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/21.png)
 
 Photo 3.1 DNS
 
-![name-of-you-image]https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/22.png
+
+![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/22.png)
+
+
 
 Photo 3.2 DNS
 
-![name-of-you-image]https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/23.png
+![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/23.png)
+
 
 Photo 3.3 DNS
 
-![name-of-you-image]https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/24.png
+![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/24.png)
+
 
 Photo 3.4 DNS
 
-![name-of-you-image]https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/25.png
+
+![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/25.png)
+
 
 Photo 3.5 DNS
 
-![name-of-you-image]https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/26.png
+
+![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/26.png)
+
 
 Photo 3.6 DNS
 
