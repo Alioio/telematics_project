@@ -29,9 +29,9 @@ The process starts with the Dns Resolver which looks in the cache if the informa
 - ` StubResolver.ipynb`<br>
 
 2. Run all cell's in the following Notebooks: 
-`DNS.ipynb`<br>
-`Recursive_resolver.ipynb`<br>
-`StubResolver.ipynb` (Start the stub without sending a message.)
+- `DNS.ipynb`<br>
+- `Recursive_resolver.ipynb`<br>
+- `StubResolver.ipynb` (Start the stub without sending a message.)
 
 3. In the Notebook `StubResolver.ipynb` we prepared some messages to two different paths in our DNS structure. 
 
