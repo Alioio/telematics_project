@@ -15,16 +15,37 @@ Setup __________ Stub Resolver , Recursive Resolver , DNS.
 
 Zones _______ Explaining the zones
 
-
 ![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/zones_telematik.png)
 
-Photo 4.1 Zones---- 
+Photo Zones---- 
 The process starts with the Dns Resolver which looks in the cache if the information that he seeks is in there, If not he then goes to ask root which reachable in this case with the IP address 127.0.0.11:53053 .If The root doesn't have the answer then he sends the Dns resolver to ask Telematik and FuBerlin (TLD).The process contiunes until the resolver gets an IP adress  If the TLD's don't have the answer the the recrusive resolver proceeds to ask Switch, Router, Homework ,Pcpools. If the resolver doesn't get answer he logs an error with the name rcode=3 which means the domain name doesn't have any information.
 
+## How to run project: 
+
+1. Open the following Jupyter Notebooks in your Browser: 
+
+`DNS.ipynb`<br>
+`Recursive_resolver.ipynb`<br>
+` StubResolver.ipynb`<br>
+
+2. Run all cell's in the following Notebooks: 
+`DNS.ipynb`<br>
+`Recursive_resolver.ipynb`<br>
+`StubResolver.ipynb` (Start the stub without sending a message.)
+
+3. In the Notebook `StubResolver.ipynb` we prepared some messages to two different paths in our DNS structure. 
+
+4. After sending some messages check the log files in the project directory. 
+
+5. For restarting the server (stopping all threads running in parallel) press `Kernel restart` in the Notebook.
+
+## Missing features:
+
+- HTTP Server and Proxy.
+
+## Details of our implementation:
 
 1.Stub Resolver
-
-
 
 ![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/stubresolver/1.png)
                             
@@ -86,44 +107,63 @@ forwards it to dns server.We implement the request to the dns server also with t
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 3.DNS
+First of all we load entrys for own zone from out json file.
+Here we create load_zone() function in order to load all entries for our zone.Then check if a requested entry is in own zone or not.
+(e.g this zonenameis telematik and requested address is for dns name www.switch.telematik means that switch is in our zone and we can send the address for switch.telematik.if it is not ,
+ then returns none).We check whetever entry is in our zone with is_in_own_zone() function.In order to create response we have build_response() function.Here we set all the flags with appropriate values.
+Let's look at some flags in order to know what do they mean.
+dns.flags.response=1 means this is response not query
+dns.qry.name is same which we look at domain name 
+dns.qry.type=1 because we search IPv4 Address for domain name
+dns.flags.rcode=0 when there is no problem , value 3 means that domain name referenced in query doesn't exsist
+In order to response to client we create response_to_client() function.We have here send_request() function.We make this function to handle request and response togehter with threads.
+At the end all the functions work with start() function.
+
 
 
 ![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/21.png)
 
 
-Photo 3.1 DNS
+Photo 3.1 - Our DNS Server is accessible under the IP address:127.0.0.11:53053 . Loading all entrys for own zone from our json file. 
+    (e.g. zonename: telematik for zone (telematik, swith, router))
 
 
 ![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/22.png)
 
 
 
-Photo 3.2 DNS
+Photo 3.2 - Here we create load_zone() function in order to load all entries for our zone. Checking if a requested entry is in own zone. 
+    (e.g. this zonename is telematik and requested address is for dns name www.swith.telematik.
+    Means that swith is in our zone and we can send the adress for switch.telematik)
+    Returns None if not.
 
 
 ![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/23.png)
 
 
-Photo 3.3 DNS
+Photo 3.3 -We check whetever entry is in our zone with is_in_own_zone() function.Checks if this dns can send directly the authorative answer? 
+ 
 
 
 ![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/24.png)
 
 
-Photo 3.4 DNS
+Photo 3.4 - In order to create response we have build_response() function.Here we set all the flags with appropriate values.
+
+--dns.flags.response=1 means this is response not query
+--dns.qry.name is same which we look at domain name 
+--dns.qry.type=1 because we search IPv4 Address for domain name
+--dns.flags.rcode=0 when there is no problem , value 3 means that domain name referenced in query doesn't exsist
 
 
 ![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/25.png)
 
 
-Photo 3.5 DNS
-
+Photo 3.5 - In order to response to client we create response_to_client() function.We have here send_request() function.We make this function to handle request and response togehter with threads.
 
 ![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/DNS/26.png)
 
 
-Photo 3.6 DNS
+Photo 3.6 - At the end all the functions work with start() function.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
