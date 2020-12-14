@@ -56,7 +56,7 @@ the cache.
 ![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/recursiveresolver/12.png)
 
 
-Photo 2.2 -  
+Photo 2.2 -  We create connection among servers and also between clients and servers with socket libraries.First recursive resolver begins to listen requests and check if it is a request from a stub resolver or not.
 
 ![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/recursiveresolver/13.png)
 
@@ -67,8 +67,7 @@ Photo 2.3 -  .We use here thread in order to perform many functions at the same 
 ![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/recursiveresolver/14.png)
 
 
-Photo 2.4 - : We create connection among servers  and also between clients and servers with socket libraries.First recursive resolver begins to listen requests and check if it is a request from a stub resolver or not.
-
+Photo 2.4 - : Here we implement a code to send a response from the cache to the stubresolver which the forwards that to DNS.
 
 ![name-of-you-image](https://github.com/Alioio/telematics_project/blob/main/Notebooks/screenshots/recursiveresolver/15%20threading.png)
 
