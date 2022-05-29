@@ -1,11 +1,11 @@
 # telematics_project
  
- General Info 
+ ## General Info 
  _________
 
 In this project we implemented a dns server. Our dns server consists of 3 parts :  Stub resolver ,  Recursive resolver and autorative dns server. The main purpose for this implementation is to send a domain name and receive an IP address assigned for this domain name. 
 
-Technologies 
+## Technologies 
 _________
 
 1. Python3 (programming Language) 
@@ -13,11 +13,11 @@ _________
 3. Pandas Library (Creating the log file)
 4. Json (For creating the zones )
 
-Setup 
+## Setup 
 __________ 
 Stub Resolver , Recursive Resolver , DNS.
 
-Zones 
+## Zones 
 _______ 
 
 
